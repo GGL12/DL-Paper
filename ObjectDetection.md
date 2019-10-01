@@ -38,7 +38,7 @@
 
 ### 2.1、Network Model 
 
-![fast-rcnn-network-model](https://github.com/GGL12/DL-Paper/tree/master/images) 
+![fast-rcnn-network-model](https://github.com/GGL12/DL-Paper/blob/master/images/fast-rcnn-network-model.png) 
 
 ### 2.2、Feature Map
 
