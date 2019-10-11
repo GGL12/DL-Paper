@@ -52,15 +52,12 @@
 
 多损失融合（分类损失和回归损失融合），分类采用log loss（即对真实分类的概率取负log，分类输出K+1维），回归的loss为smooth l1函数。
 
+## 三、Faster R-CNN
 
+### 3.1、no Selective Search ?
 
+计算区域候选成为实时的检测的瓶颈，Faster R-CNN摈弃传统的Selective Search算法获得区域建议框，由此提出了RPN。
 
+### 3.2、Region Proposal Networks 
 
-
-
-
-
-
-
-
-
+区域建议网络（RPN）将一个图像（任意大小）作为输入，输出矩形目标建议框的集合，每个框有一个objectness得分 
